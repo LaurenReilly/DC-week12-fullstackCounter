@@ -7,6 +7,8 @@ const express = require('express');
 //get an application instance with the app variable
 const app = express();
 
+app.use(express.static(__dirname + '/public'));
+
 //set a variable for our port
 const port = 3000;
 

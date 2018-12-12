@@ -8,5 +8,9 @@
     "start": "node server.js"
   },
   "author": "Lauren Reilly",
-  "license": "ISC"
+  "license": "ISC",
+  "dependencies": {
+    "axios": "^0.18.0",
+    "express": "^4.16.4"
+  }
 }
