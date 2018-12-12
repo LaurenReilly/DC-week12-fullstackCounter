@@ -11,11 +11,12 @@
     <script src="main.js"></script>
 </head>
 <body>
-    <div class="container dark">
-        <h1 class="text-center mb-5">Counter</h1>
+    <div class="container">
+        <h1 class="text-center mb-5" style="font-size: 8em">Counter</h1>
         <div class="text-center" id="counter" style="font-size: 6em">0</div>
-        <div style="width: 600px" class="m-auto d-flex justify-content-between">
+        <div style="width: 600px" class="m-auto d-flex justify-content-around">
             <a class="btn btn-success" onclick="increment()">Increment</a>
+            <a class="btn btn-primary" onclick="reset()">Reset</a>
             <a class="btn btn-danger" onclick="decrement()">Decrement</a>
         </div>
     </div>

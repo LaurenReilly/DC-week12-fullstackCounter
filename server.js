@@ -28,7 +28,8 @@ app.get('/decrement', function(req, res) {
 });
 
 //use the get function to set a route, show value of counter
-app.get('/value', function(req, res) {
+app.get('/reset', function(req, res) {
+    counter = 0;
     res.send(`${counter}`);
 });
 

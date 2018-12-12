@@ -11,3 +11,10 @@ function decrement() {
         counter.innerHTML = response.data;
     });
 }
+
+function reset() {
+    var counter = document.getElementById('counter');
+    axios.get('/reset').then(function(response){
+        counter.innerHTML = response.data;
+    });
+}
